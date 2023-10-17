@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,300;1,400&family=Oxygen:wght@400;700&family=Poppins:ital,wght@0,300;1,400;1,600;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxygen', sans-serif;
+}
+
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.navbar {
+    display: flex;
+    background-color: #181818;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover {
+    transition: 0.2s;
+    padding-bottom: 8px;
+    border-bottom: 1px white solid;
+}
+
+
+
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+    transition: 0.2s;
+  }
+
+  .whatsapp:hover {
+    transition: 0.3s;
+    transform: scale(1.2);
+  }
+  
+  .whatsapp-icon {
+    margin-top:13px;
+  }
+
+  .card {
+    margin-top: 8%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: #181818 2px solid;
+  }
+
+
+  .card:hover {
+    transition: 0.2s;
+    transform: translateY(-20px);
+  }
+
+  .card img {
+    height: 500px;
+    width: 400px;
+  }
+
+  .card img:hover {
+    transition: 0.3s;
+    transform: translateY(-20px);
+  }
+
+  .card a {
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 20px 40px;
+    background-color: rgb(85, 32, 155);
+    color: white;
+    border-radius: 20px;
+  }
+
+  .card a:hover {
+    background-color: rgb(123, 55, 211);
+  }
